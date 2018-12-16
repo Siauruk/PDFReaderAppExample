@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AE30D1621C70078002D3658 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE30D1521C70078002D3658 /* PDFViewController.swift */; };
+		3AE30D1921C70345002D3658 /* MacBook-Air-13-2018.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE30D1821C70345002D3658 /* MacBook-Air-13-2018.pdf */; };
+		3AE30D1B21C7037C002D3658 /* iPhone-XR-info.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE30D1A21C7037B002D3658 /* iPhone-XR-info.pdf */; };
+		3AE30D1D21C703E6002D3658 /* iMac-Pro-2017.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3AE30D1C21C703E6002D3658 /* iMac-Pro-2017.pdf */; };
 		3AEE91D621B80CE5004150B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE91D521B80CE5004150B2 /* AppDelegate.swift */; };
-		3AEE91D821B80CE5004150B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE91D721B80CE5004150B2 /* ViewController.swift */; };
+		3AEE91D821B80CE5004150B2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEE91D721B80CE5004150B2 /* TableViewController.swift */; };
 		3AEE91DB21B80CE5004150B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEE91D921B80CE5004150B2 /* Main.storyboard */; };
 		3AEE91DD21B80CE6004150B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEE91DC21B80CE6004150B2 /* Assets.xcassets */; };
 		3AEE91E021B80CE6004150B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEE91DE21B80CE6004150B2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AE30D1521C70078002D3658 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		3AE30D1821C70345002D3658 /* MacBook-Air-13-2018.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "MacBook-Air-13-2018.pdf"; sourceTree = "<group>"; };
+		3AE30D1A21C7037B002D3658 /* iPhone-XR-info.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iPhone-XR-info.pdf"; sourceTree = "<group>"; };
+		3AE30D1C21C703E6002D3658 /* iMac-Pro-2017.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "iMac-Pro-2017.pdf"; sourceTree = "<group>"; };
 		3AEE91D221B80CE5004150B2 /* PDFReaderAppExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFReaderAppExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEE91D521B80CE5004150B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AEE91D721B80CE5004150B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3AEE91D721B80CE5004150B2 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		3AEE91DA21B80CE5004150B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AEE91DC21B80CE6004150B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AEE91DF21B80CE6004150B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE30D1721C70243002D3658 /* PDF Docs */ = {
+			isa = PBXGroup;
+			children = (
+				3AE30D1821C70345002D3658 /* MacBook-Air-13-2018.pdf */,
+				3AE30D1C21C703E6002D3658 /* iMac-Pro-2017.pdf */,
+				3AE30D1A21C7037B002D3658 /* iPhone-XR-info.pdf */,
+			);
+			path = "PDF Docs";
+			sourceTree = "<group>";
+		};
 		3AEE91C921B80CE5004150B2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +72,10 @@
 		3AEE91D421B80CE5004150B2 /* PDFReaderAppExample */ = {
 			isa = PBXGroup;
 			children = (
+				3AE30D1721C70243002D3658 /* PDF Docs */,
 				3AEE91D521B80CE5004150B2 /* AppDelegate.swift */,
-				3AEE91D721B80CE5004150B2 /* ViewController.swift */,
+				3AEE91D721B80CE5004150B2 /* TableViewController.swift */,
+				3AE30D1521C70078002D3658 /* PDFViewController.swift */,
 				3AEE91D921B80CE5004150B2 /* Main.storyboard */,
 				3AEE91DC21B80CE6004150B2 /* Assets.xcassets */,
 				3AEE91DE21B80CE6004150B2 /* LaunchScreen.storyboard */,
@@ -122,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE30D1D21C703E6002D3658 /* iMac-Pro-2017.pdf in Resources */,
 				3AEE91E021B80CE6004150B2 /* LaunchScreen.storyboard in Resources */,
 				3AEE91DD21B80CE6004150B2 /* Assets.xcassets in Resources */,
 				3AEE91DB21B80CE5004150B2 /* Main.storyboard in Resources */,
+				3AE30D1921C70345002D3658 /* MacBook-Air-13-2018.pdf in Resources */,
+				3AE30D1B21C7037C002D3658 /* iPhone-XR-info.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AEE91D821B80CE5004150B2 /* ViewController.swift in Sources */,
+				3AE30D1621C70078002D3658 /* PDFViewController.swift in Sources */,
+				3AEE91D821B80CE5004150B2 /* TableViewController.swift in Sources */,
 				3AEE91D621B80CE5004150B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
